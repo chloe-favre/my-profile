@@ -1,0 +1,97 @@
+body {
+	font-family:'Zen Kaku Gothic Antique', sans-serif;
+	text-align: center;
+	background: url(image/background.png);
+}
+
+h1{
+	font-family: 'Amatic SC', cursive;
+	font-weight: bolder;
+	color: #43473B;
+}
+
+p{
+	color: #43473B;
+	text-align: center;
+}
+
+h2{
+	font-size: 35px;
+	font-family: 'Amatic SC', cursive;	
+}
+
+ul li {
+	list-style: none;
+
+}
+
+a{
+	color: #9BA684;
+}
+ul li a {
+	text-decoration: none;
+	font-size: 32px;
+	line-height: 1.8;
+}
+
+div{
+	border: 2px #43473B}
+
+
+.title{
+	font-size: 30px;
+	transition: 0.3s,ease;
+}
+.title:hover{
+	font-size: 30.4px;
+}
+
+.cardwhite{
+	color: #43473B;
+	border: 2px #43473B;
+	background-color: #E6F1DF;
+	text-align: center;
+	box-shadow: 12px 10px 0 0.1px rgba(0,0,0,0.025);
+	border-radius: 0.5%;
+	margin: 50px;
+	padding: 24px;
+
+}
+
+.btn-green{
+	font-size: 14px;
+	transition: 0.3s,ease;
+	text-decoration: none;
+	color: whitesmoke;
+	background-color: #ADB69A;
+	border-radius: 3.5%;
+	display: initial;
+	padding: 11px;
+}
+
+.btn-green a{
+	text-decoration: none;
+	color: whitesmoke; 
+}
+
+.btn-green:hover{
+	background-color:#9BA684;
+}
+
+.contact li{
+	display: inline;
+}
+.contact{
+	color: #43473B;
+}
+
+
+@media(max-width: 500px){
+	.cardwhite{
+			width: 400px;
+		}
+	body{
+			width: 400px;
+		}
+}		
+		
